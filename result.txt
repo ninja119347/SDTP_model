@@ -1090,3 +1090,6 @@ mse:1086.3037109375, mae:22.38043212890625
 test04_SDTP_custom_ftMS_sl5_ll5_pl1_dm512_nh8_el5_dl3_df1024_fc1_ebtimeF_dtTrue_test_0  
 mse:992.3436279296875, mae:21.692140579223633
 
+test_SDTP_custom_ftMS_sl5_ll5_pl1_dm512_nh8_el5_dl3_df1024_fc1_ebtimeF_dtTrue_test_0  
+mse:993.8982543945312, mae:21.654935836791992
+

@@ -57,7 +57,7 @@ Commands for training and testing the model on Dataset SH:
 
 ```bash
 # SH
-python -u run.py --model SDTP --data custom  --root_path ./ETT-small/    --data_path  price_SH.csv --freq d --enc_in 8 --dec_in 8 --c_out 8 --target closeIndex --train_epochs 50 --batch_size 64 --features MS --itr 3 --seq_len 5 --label_len 5 --pred_len 1 --dropout 0.01 --learning_rate 0.001 --patience 50 --moving_avg 5 --lradj type1 --e_layers 2 --d_layers 1 --d_ff 1024 --d_model 512
+python -u run.py --model SDTP --data custom  --root_path ./ETT-small/    --data_path  price_SH.csv --freq d --enc_in 8 --dec_in 8 --c_out 8 --target closeIndex --train_epochs 100 --batch_size 64 --features MS --itr 3 --seq_len 5 --label_len 5 --pred_len 1 --dropout 0.05 --learning_rate 0.001 --patience 50 --moving_avg 5 --lradj type1 --e_layers 5 --d_layers 3 --d_ff 1024 --d_model 512
 
 ```
 
