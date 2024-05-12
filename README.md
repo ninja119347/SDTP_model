@@ -134,7 +134,7 @@ The detailed descriptions about the arguments are as following:
 
 **The above parameters are for reference only, the actual values please refer to the code.**
 ## Data
-The required data files should be put into /ETT-small/ folder. 
+The required data files should be put into `/ETT-small/` folder. 
 we select three well-known stock indices, the Shanghai
 Composite Index (SH) from July 1, 1991 to June 30, 2020, and the
 Shenzhen Component Index (SZ) and the Hang Seng Index (HSI) from
